@@ -71,6 +71,15 @@ const products = [
     description:
       "1080p HD webcam with auto-focus and built-in microphone. Ideal for video calls and streaming.",
   },
+
+  {
+    id: 9,
+    name: "KabuDachu",
+    price: 999.99,
+    image:"https://scontent.fjsr6-1.fna.fbcdn.net/v/t39.30808-1/612993883_1429643935235754_8357191871471628500_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=101&ccb=1-7&_nc_sid=1d2534&_nc_eui2=AeHijB-sNNc_abERKuKMjllRy95AC7eyVtXL3kALt7JW1SOV4D6lISlbPsZ8GuM9QpgNiUGC3kB1yxvv8JbrQ7fX&_nc_ohc=gvcq4VC3LCQQ7kNvwEsRV0h&_nc_oc=AdqBhuBItn1xIU638fr-nONHvBsYPGYbgPDN3-D5_aRGwRJvINRQrWmRmP9KtCCwFB4&_nc_zt=24&_nc_ht=scontent.fjsr6-1.fna&_nc_gid=Pd_o2oZmSZhA7LQ5zwksLw&_nc_ss=7a3a8&oh=00_Af2XnmsBPlzrsdB9SZgO73utcvBlV4L5VGsEkKRljjw1OA&oe=69D87407" ,
+    description:
+      "Ay bokasoda kotha kom koi kaj besi kore...sudhu aktai smossa o norte pare na...aktu norle e or bici te betha kore....kintu product valo caile e use korte pare",
+  },
 ];
 
 export function getProducts() {

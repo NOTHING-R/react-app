@@ -6,21 +6,23 @@ import Checkout from './pages/Checkout.jsx'
 import Products from './pages/ProductDetails.jsx'
 import Navbar from './components/Navbar.jsx'
 import AuthProvider from './contex/AuthContex.jsx'
-
+import CartProvider from './contex/CartContex.jsx'
 function App() {
 
 
   return (
     <AuthProvider>
-      <div className='app'>
-        <Navbar />
-        <Routes >
-          <Route path='/' element={<Home />} />
-          <Route path='/auth' element={<Auth />} />
-          <Route path='/checkout' element={<Checkout />} />
-          <Route path='/products/:id' element={<Products />} />
-        </Routes>
-      </div >
+      <CartProvider>
+        <div className='app'>
+          <Navbar />
+          <Routes >
+            <Route path='/' element={<Home />} />
+            <Route path='/auth' element={<Auth />} />
+            <Route path='/checkout' element={<Checkout />} />
+            <Route path='/products/:id' element={<Products />} />
+          </Routes>
+        </div >
+      </CartProvider>
     </AuthProvider>
   )
 }
